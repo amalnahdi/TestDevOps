@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Starting to clone the Git repository...'
                 // Shallow clone: clone only the latest commit
-                git branch: 'master',
+                git branch: 'Amal',
                     url: 'https://github.com/amalnahdi/TestDevOps.git',
 
             }
