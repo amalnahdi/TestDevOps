@@ -5,10 +5,8 @@ pipeline {
             steps {
                 echo 'Starting to clone the Git repository...'
                 // Shallow clone: clone only the latest commit
-                git branch: 'NahdiAmal-5SAE1-G7',
-                    url: 'https://github.com/GhadaMeddeb/5SAE1-G7-Foyer.git',
-                    credentialsId: 'TokenAmal',
-                    depth: 1 // Shallow clone with only the latest commit
+                git branch: 'Amal',
+                    url: 'https://github.com/amalnahdi/TestDevOps.git',
             }
         }
 
